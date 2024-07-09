@@ -32,7 +32,7 @@ async function checkCep(cep: string) {
       if (current < end) {
         setTimeout(() => {
           checkCep(String(current));
-        }, 1000);
+        }, 500);
       } else if (current === end) {
         console.log('terminou');
       }
@@ -43,7 +43,7 @@ async function checkCep(cep: string) {
       if (current < end) {
         setTimeout(() => {
           checkCep(String(current));
-        }, 1000);
+        }, 500);
       } else if (current === end) {
         console.log('terminou');
       }
